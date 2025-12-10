@@ -11,6 +11,11 @@ Proyek ini bertujuan untuk melakukan Analisis Data Eksploratif (EDA) mendalam, P
 
 Alur kerja (Workflow) KNIME ini dibagi menjadi tiga tahap utama: Preprocessing, Feature Engineering & Agregasi, dan Visualisasi.
 
+### Diagram Alur Kerja Keseluruhan
+Berikut adalah visualisasi rinci dari *workflow* KNIME yang digunakan, yang mencakup tahap persiapan, pra-pemrosesan, dan visualisasi:
+
+![Diagram Alur Kerja KNIME](assets/Workflow.jpg)
+
 ### 1. Preprocessing Data
 
 | Node | Deskripsi |
@@ -38,7 +43,25 @@ Node-node visualisasi digunakan untuk eksplorasi data (EDA) yang mendalam:
 
 ---
 
-## Hasil Utama & Interpretasi
+##  Hasil Utama & Interpretasi Data
+
+### Perbandingan Rata-rata Harga dan KM Berdasarkan Tahun Produksi
+
+Visualisasi ini membandingkan rata-rata harga (Mean(Harga)) dan rata-rata jarak tempuh (Mean(KM)) dari mobil Toyota Corolla untuk setiap tahun produksi dari 1999 hingga 2001.
+
+![Bar Chart Perbandingan Harga dan KM](assets/BarChart.jpg)
+
+### Tren Harga Rata-rata Berdasarkan Kategori KM
+
+#### Visual Tahun 1999
+Line Plot menunjukkan hubungan antara rata-rata harga dan empat kategori KM (1-4). Terlihat penurunan tajam harga rata-rata seiring dengan kenaikan Kategori KM.
+
+![Line Plot Harga vs Kategori KM (1999)](assets/LinePlot1.jpg)
+
+#### Visual Tahun 2001
+Tren serupa juga teramati pada mobil produksi tahun 2001, di mana harga rata-rata menurun signifikan seiring peningkatan Kategori KM dari 1 ke 4.
+
+![Line Plot Harga vs Kategori KM (2001)](assets/LinePlot2.jpg)
 
 ### INSIGHT (Temuan Kunci dari Data)
 
